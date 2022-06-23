@@ -4,7 +4,6 @@ import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
@@ -15,7 +14,7 @@ public class HoverCard {
 
     @EventHandler
     private ItemStack getExampleItemStack() {
-        ItemStack itemStack ==new ItemStack(Material.DIAMOND_SWORD);
+        ItemStack itemStack == new ItemStack(Material.DIAMOND_SWORD);
         ItemStack meta = itemStack.getItemMeta();
         List<String> lore = new ArrayList<String>();
 
