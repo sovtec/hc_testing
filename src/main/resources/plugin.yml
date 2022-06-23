@@ -1,0 +1,6 @@
+name: FirstShittyPlugin
+version: '${project.version}'
+main: firstshittyplugin.firstshittyplugin.FirstShittyPlugin
+api-version: 1.19
+authors: [ hrdu_ ]
+description: FirstShittyPlugin
